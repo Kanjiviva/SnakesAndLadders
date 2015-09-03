@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACEA5961B942AB80020726E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACEA5951B942AB80020726E /* main.m */; };
+		AACEA59E1B942C3E0020726E /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACEA59D1B942C3E0020726E /* GameController.m */; };
+		AACEA5A11B942C4A0020726E /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AACEA5A01B942C4A0020726E /* UserInput.m */; };
+		AACEA5A41B942C550020726E /* SnakeLadder.m in Sources */ = {isa = PBXBuildFile; fileRef = AACEA5A31B942C550020726E /* SnakeLadder.m */; };
+		AACEA5AA1B942C8B0020726E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = AACEA5A91B942C8B0020726E /* Player.m */; };
+		AACEA5AD1B942E780020726E /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = AACEA5AC1B942E780020726E /* Grid.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AACEA5901B942AB80020726E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AACEA5921B942AB80020726E /* SnakeAndLadder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnakeAndLadder; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACEA5951B942AB80020726E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AACEA59C1B942C3E0020726E /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		AACEA59D1B942C3E0020726E /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		AACEA59F1B942C4A0020726E /* UserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
+		AACEA5A01B942C4A0020726E /* UserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInput.m; sourceTree = "<group>"; };
+		AACEA5A21B942C550020726E /* SnakeLadder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeLadder.h; sourceTree = "<group>"; };
+		AACEA5A31B942C550020726E /* SnakeLadder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeLadder.m; sourceTree = "<group>"; };
+		AACEA5A81B942C8B0020726E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AACEA5A91B942C8B0020726E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		AACEA5AB1B942E780020726E /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		AACEA5AC1B942E780020726E /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACEA58F1B942AB80020726E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACEA5891B942AB80020726E = {
+			isa = PBXGroup;
+			children = (
+				AACEA5941B942AB80020726E /* SnakeAndLadder */,
+				AACEA5931B942AB80020726E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACEA5931B942AB80020726E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACEA5921B942AB80020726E /* SnakeAndLadder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACEA5941B942AB80020726E /* SnakeAndLadder */ = {
+			isa = PBXGroup;
+			children = (
+				AACEA5951B942AB80020726E /* main.m */,
+				AACEA59C1B942C3E0020726E /* GameController.h */,
+				AACEA59D1B942C3E0020726E /* GameController.m */,
+				AACEA59F1B942C4A0020726E /* UserInput.h */,
+				AACEA5A01B942C4A0020726E /* UserInput.m */,
+				AACEA5A21B942C550020726E /* SnakeLadder.h */,
+				AACEA5A31B942C550020726E /* SnakeLadder.m */,
+				AACEA5A81B942C8B0020726E /* Player.h */,
+				AACEA5A91B942C8B0020726E /* Player.m */,
+				AACEA5AB1B942E780020726E /* Grid.h */,
+				AACEA5AC1B942E780020726E /* Grid.m */,
+			);
+			path = SnakeAndLadder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACEA5911B942AB80020726E /* SnakeAndLadder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACEA5991B942AB80020726E /* Build configuration list for PBXNativeTarget "SnakeAndLadder" */;
+			buildPhases = (
+				AACEA58E1B942AB80020726E /* Sources */,
+				AACEA58F1B942AB80020726E /* Frameworks */,
+				AACEA5901B942AB80020726E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnakeAndLadder;
+			productName = SnakeAndLadder;
+			productReference = AACEA5921B942AB80020726E /* SnakeAndLadder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACEA58A1B942AB80020726E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Steve;
+				TargetAttributes = {
+					AACEA5911B942AB80020726E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = AACEA58D1B942AB80020726E /* Build configuration list for PBXProject "SnakeAndLadder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AACEA5891B942AB80020726E;
+			productRefGroup = AACEA5931B942AB80020726E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACEA5911B942AB80020726E /* SnakeAndLadder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACEA58E1B942AB80020726E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACEA5A41B942C550020726E /* SnakeLadder.m in Sources */,
+				AACEA5961B942AB80020726E /* main.m in Sources */,
+				AACEA59E1B942C3E0020726E /* GameController.m in Sources */,
+				AACEA5AD1B942E780020726E /* Grid.m in Sources */,
+				AACEA5A11B942C4A0020726E /* UserInput.m in Sources */,
+				AACEA5AA1B942C8B0020726E /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AACEA5971B942AB80020726E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AACEA5981B942AB80020726E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AACEA59A1B942AB80020726E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AACEA59B1B942AB80020726E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACEA58D1B942AB80020726E /* Build configuration list for PBXProject "SnakeAndLadder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACEA5971B942AB80020726E /* Debug */,
+				AACEA5981B942AB80020726E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACEA5991B942AB80020726E /* Build configuration list for PBXNativeTarget "SnakeAndLadder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACEA59A1B942AB80020726E /* Debug */,
+				AACEA59B1B942AB80020726E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACEA58A1B942AB80020726E /* Project object */;
+}
